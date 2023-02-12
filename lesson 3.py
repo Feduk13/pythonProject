@@ -29,6 +29,6 @@ class House:
         self.mud = 0
 
 
-citizen = Man(name='Петя')
-cat = Cat(name="Пушок")
+citizen = Man(name='Федя')
+cat = Cat(name="Барсик")
 citizen.go_to_the_house(house=my_home)
