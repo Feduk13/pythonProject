@@ -16,7 +16,7 @@ class Man:
     def go_to_the_house(self, house):
         self.house = house
         self.fullness -= 10
-        cprint(f'{self.name} въехал в дом', color='cyan')
+        print(f'{self.name} въехал в дом', color='cyan')
 
 
 class House:
