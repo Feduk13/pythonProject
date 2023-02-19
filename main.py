@@ -29,7 +29,7 @@ class Cat:
             self.alive = False
         elif self.progress > 5:
             print("Passed externally…")
-            self.alive = False
+            self.alive = True
 
     def end_of_day(self):
         print(f"Gladness = {self.gladness}")
@@ -105,9 +105,10 @@ for day in range(365):
     if nick.alive == False:
         break
     nick.live(day)
-    if Barsik.alive == False:
-        break
-    Barsik.live2(day)
     if kate.alive == False:
         break
     kate.live(day)
+for day in range(365):
+    if Barsik.alive == False:
+        break
+    Barsik.live2(day)
