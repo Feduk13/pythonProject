@@ -28,7 +28,7 @@ class Cat:
             print("Depression…")
             self.alive = False
         elif self.progress > 5:
-            print("Passed externally…")
+            print("may may")
             self.alive = True
 
     def end_of_day(self):
