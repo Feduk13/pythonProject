@@ -5,10 +5,24 @@ class Grandparent:
         print("I am Grandparent")
 class Parent(Grandparent):
     def about_myself(self):
-        print("i am Parent")
+        print("we Parent")
 class Child(Parent):
-    def __init__(self):
-        super().about()
-        super().about_myself()
+    def about_myself(self):
+        print("i am Child")
+
+class Friend(Child):
+    def about_myself(self):
+        print("i am a friend Child")
+class girlfriend(Child):
+    def about_myself(self):
+        print("i am a girlfriend Child")
+
+class Baby(Parent):
+    def about_myself(self):
+        print("Gu gu ga ga")
+
+def __init__(self):
+    super().about()
+    super().about_myself()
 nick = Child()
 
