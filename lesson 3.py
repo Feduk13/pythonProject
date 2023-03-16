@@ -19,6 +19,13 @@ class Man:
         print(f'{self.name} въехал в дом', color='cyan')
 
 
+import logging
+logging.basicConfig(level=logging.DEBUG,
+   filename="logs.log", filemode="w",
+   format="We have next logging message: "
+         "%(asctime)s:%(levelname)s-%(message)s"
+
+   )
 class House:
 
     def __init__(self, number):
